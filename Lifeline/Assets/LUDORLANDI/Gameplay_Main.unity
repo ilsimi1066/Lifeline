@@ -420,7 +420,7 @@ Transform:
   m_GameObject: {fileID: 441925007}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.55, y: 0.2, z: 5.93}
+  m_LocalPosition: {x: -8.44, y: 0.2, z: 5.93}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -504,6 +504,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 441925007}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &636357377 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8154361760406076462, guid: 77422bd29d77e49479e7ad0dfb8e8ac5, type: 3}
+  m_PrefabInstance: {fileID: 1376157839}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &792756735
 GameObject:
   m_ObjectHideFlags: 0
@@ -627,7 +632,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 697793068073163691, guid: 2fb7c4324c8bdc640976797c8c32ea53, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.29
+      value: -9.28
       objectReference: {fileID: 0}
     - target: {fileID: 697793068073163691, guid: 2fb7c4324c8bdc640976797c8c32ea53, type: 3}
       propertyPath: m_LocalPosition.y
@@ -635,7 +640,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 697793068073163691, guid: 2fb7c4324c8bdc640976797c8c32ea53, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.62021
+      value: -9.67
       objectReference: {fileID: 0}
     - target: {fileID: 697793068073163691, guid: 2fb7c4324c8bdc640976797c8c32ea53, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1158,10 +1163,11 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Player_Pos","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BulletPrefab","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"FirePointPos","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"NextPatrol","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"NextPatrol","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ListaPatrolPoints","value":{"$content":[4,5,6],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PatrolIndex","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 4970930358860488895, guid: 77422bd29d77e49479e7ad0dfb8e8ac5, type: 3}
@@ -1176,6 +1182,14 @@ PrefabInstance:
       propertyPath: '_data._objectReferences.Array.data[1]'
       value: 
       objectReference: {fileID: 222292784}
+    - target: {fileID: 4970930358860488895, guid: 77422bd29d77e49479e7ad0dfb8e8ac5, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8131554652098440410, guid: 88dd4e1cff5030c4ea8b0c2a2dbf0b74, type: 3}
+    - target: {fileID: 4970930358860488895, guid: 77422bd29d77e49479e7ad0dfb8e8ac5, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[3]'
+      value: 
+      objectReference: {fileID: 636357377}
     - target: {fileID: 4970930358860488895, guid: 77422bd29d77e49479e7ad0dfb8e8ac5, type: 3}
       propertyPath: '_data._objectReferences.Array.data[4]'
       value: 
@@ -2067,7 +2081,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1212967921770196616, guid: 0f641afabf95dce40933da3d06f53807, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -14.43
       objectReference: {fileID: 0}
     - target: {fileID: 1212967921770196616, guid: 0f641afabf95dce40933da3d06f53807, type: 3}
       propertyPath: m_LocalPosition.y
