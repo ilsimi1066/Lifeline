@@ -280,11 +280,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 430505576}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &636357377 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8154361760406076462, guid: 77422bd29d77e49479e7ad0dfb8e8ac5, type: 3}
-  m_PrefabInstance: {fileID: 1376157839}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &792756735
 GameObject:
   m_ObjectHideFlags: 0
@@ -408,7 +403,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 697793068073163691, guid: 2fb7c4324c8bdc640976797c8c32ea53, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.2723327
+      value: -3.29
       objectReference: {fileID: 0}
     - target: {fileID: 697793068073163691, guid: 2fb7c4324c8bdc640976797c8c32ea53, type: 3}
       propertyPath: m_LocalPosition.y
@@ -818,41 +813,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Killer
       objectReference: {fileID: 0}
-    - target: {fileID: 1841883516167334608, guid: 77422bd29d77e49479e7ad0dfb8e8ac5, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1841883516167334608, guid: 77422bd29d77e49479e7ad0dfb8e8ac5, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.55
-      objectReference: {fileID: 0}
-    - target: {fileID: 1841883516167334608, guid: 77422bd29d77e49479e7ad0dfb8e8ac5, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1841883516167334608, guid: 77422bd29d77e49479e7ad0dfb8e8ac5, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1841883516167334608, guid: 77422bd29d77e49479e7ad0dfb8e8ac5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4970930358860488895, guid: 77422bd29d77e49479e7ad0dfb8e8ac5, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"KillerFollowPlayer","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"KillerFollowNPC","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IsPatrolling","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"NPC_Pos","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Player_Pos","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BulletPrefab","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"FirePointPos","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 4970930358860488895, guid: 77422bd29d77e49479e7ad0dfb8e8ac5, type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 4970930358860488895, guid: 77422bd29d77e49479e7ad0dfb8e8ac5, type: 3}
       propertyPath: '_data._objectReferences.Array.data[0]'
       value: 
@@ -861,14 +821,6 @@ PrefabInstance:
       propertyPath: '_data._objectReferences.Array.data[1]'
       value: 
       objectReference: {fileID: 222292784}
-    - target: {fileID: 4970930358860488895, guid: 77422bd29d77e49479e7ad0dfb8e8ac5, type: 3}
-      propertyPath: '_data._objectReferences.Array.data[2]'
-      value: 
-      objectReference: {fileID: 8131554652098440410, guid: 88dd4e1cff5030c4ea8b0c2a2dbf0b74, type: 3}
-    - target: {fileID: 4970930358860488895, guid: 77422bd29d77e49479e7ad0dfb8e8ac5, type: 3}
-      propertyPath: '_data._objectReferences.Array.data[3]'
-      value: 
-      objectReference: {fileID: 636357377}
     - target: {fileID: 5433121797012633830, guid: 77422bd29d77e49479e7ad0dfb8e8ac5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.5393944
@@ -1712,11 +1664,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -17982953305865589, guid: 0f641afabf95dce40933da3d06f53807, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"IsChatOpen","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
     - target: {fileID: 1212967921770196616, guid: 0f641afabf95dce40933da3d06f53807, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
