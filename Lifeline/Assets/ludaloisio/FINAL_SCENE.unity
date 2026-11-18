@@ -17939,6 +17939,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC_01
       objectReference: {fileID: 0}
+    - target: {fileID: 5534600601544348862, guid: 2fb7c4324c8bdc640976797c8c32ea53, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6132430980278079114, guid: 2fb7c4324c8bdc640976797c8c32ea53, type: 3}
       propertyPath: m_Speed
       value: 1.7
