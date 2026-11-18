@@ -67,8 +67,8 @@ Material:
     - _QueueOffset: 0
     - _WireIntensity: 0
     m_Colors:
-    - _BaseColor: {r: 0.08627453, g: 0.20674843, b: 0.23137255, a: 1}
-    - _EdgeColor: {r: 0.043137252, g: 0.89411765, b: 0.37531307, a: 1}
+    - _BaseColor: {r: 0.23137257, g: 0.22667426, b: 0.0862745, a: 1}
+    - _EdgeColor: {r: 0.04313725, g: 0.8469257, b: 0.8941177, a: 1}
     - _WireframeTiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
