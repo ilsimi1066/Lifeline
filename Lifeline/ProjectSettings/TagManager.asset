@@ -8,6 +8,7 @@ TagManager:
   - NPC
   - NPC_01
   - Bullet
+  - EXIT
   layers:
   - Default
   - TransparentFX
