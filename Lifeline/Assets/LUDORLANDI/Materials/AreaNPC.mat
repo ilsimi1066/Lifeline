@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: AreaNPC
-  m_Shader: {fileID: -6465566751694194690, guid: a686e50508c3c304dbff98f5f2eb6729, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: cf679e782e6bdfd419ea8ed78fe67b22, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -67,8 +67,8 @@ Material:
     - _QueueOffset: 0
     - _WireIntensity: 0
     m_Colors:
-    - _BaseColor: {r: 0.23137257, g: 0.22667426, b: 0.0862745, a: 1}
-    - _EdgeColor: {r: 0.04313725, g: 0.8469257, b: 0.8941177, a: 1}
+    - _BaseColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EdgeColor: {r: 1, g: 1, b: 1, a: 1}
     - _WireframeTiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
